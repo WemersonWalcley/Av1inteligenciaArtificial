@@ -7,8 +7,8 @@ public class Principal {
     private static int[] decimais;
     private static double[] fit;
     private static double taxaDeCrossover = 0.7;
-    private static double taxaDeMutação = 0.1;
-    private static int individuos = 200;
+    private static double taxaDeMutação = 0.01;
+    private static int individuos = 300;
     private static int genes = 8;
     
     public static void main(String[] args) {
@@ -66,7 +66,7 @@ public class Principal {
     
     public static double fit(int x) {
         
-        return (x*x)-(4*x)+6; //Função pedida na questão
+        return (x*x)-(6*x)+10; //Função pedida na questão
     
     }
     
